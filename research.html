@@ -63,9 +63,9 @@
 
 									<h1>Applications</h1>
 									<ul>
-								        <li>Monitoring of critical infrastructure systems</li>
-								        <li>Health informatics</li>
-								        <li>Cyber security: network intrusion detection and response, downing rogue drones</li>
+								        <li><strong>Monitoring of critical infrastructures</strong>: Smart water systems</li>
+								        <li><strong>Health informatics</strong>: Infectious disease modelling and forecasting</li>
+								        <li><strong>Cyber security</strong>: Network intrusion detection and response, downing rogue drones</li>
 								    </ul>
 
 									<p>Below is a list of areas that I have worked or have been working in, along with a short description, representative publications and code.</p>
@@ -76,6 +76,27 @@
 
 
 					<div class="row">
+
+
+						<div class="col-6 col-12-narrower">
+							<section class="box special">
+								<span class="image featured"><img src="images/pic03.jpg" alt="" /></span>
+								<h3>Multivariate time-series anomaly detection and localisation</h3>
+
+								<p><img src="my_images/proj_anomloc.png" alt="" width="500" height="150"/></p>
+
+								<p>Multivariate time series (MTS) anomaly diagnosis, which encompasses both anomaly detection and localization, is critical for the safety and reliability of complex, large-scale real-world systems. The vast majority of existing anomaly diagnosis methods offer limited theoretical insights, especially for anomaly localization, which is a vital but largely unexplored area</p>
+
+								<p><strong>Representative publications</strong>:
+								ICLR 2026 <a href="https://arxiv.org/abs/2602.08467">[pdf]</a>,
+								IEEE CIES, 2025. <a href="https://arxiv.org/abs/2501.08628">[pdf]</a> (<span style="color:red">Outstanding Paper Award</span>)
+								</p>
+							</section>
+						</div>
+
+
+
+
 						<div class="col-6 col-12-narrower">
 							<section class="box special">
 								<span class="image featured"><img src="images/pic02.jpg" alt="" /></span>
@@ -88,7 +109,7 @@
 								<p><strong>Representative publications</strong>:
 								IEEE TNNLS 2020 <a href="https://ieeexplore.ieee.org/document/9203853">[pdf]</a> <a href="https://github.com/kmalialis/areba/">[code]</a>,
 								ICANN 2018 <a href="https://arxiv.org/abs/1809.10388">[pdf]</a> <a href="https://github.com/kmalialis/queue_based_resampling">[code]</a>
-								IEEE SSCI 2022 <a href="https://arxiv.org/abs/2210.04949">[pdf]</a>,
+								IEEE SSCI 2022 <a href="https://arxiv.org/abs/2210.04949">[pdf]</a>
 								</p>
 <!-- 								<ul class="actions special">
 									<li><a href="#" class="button alt">Learn More</a></li>
@@ -106,8 +127,8 @@
 								<p>Apart from data nonstationarity (concept drift) and class imbalance, acquiring ground truth information (e.g., labels in classification tasks) as instances arrive one-by-one can be costly or impossible in some real-time applications. An effective way to deal with limited labelled data is the active learning paradigm.</p>
 
 								<p><strong>Representative publications</strong>:
-								Neurocomputing 2025 <a href="https://arxiv.org/abs/2504.04613">[pdf]</a> <a href="https://github.com/kmalialis/siameseduo">[code]</a>,
 								Neurocomputing 2022 <a href="https://arxiv.org/abs/2210.01090">[pdf]</a> <a href="https://github.com/kmalialis/actisiamese">[code]</a>,
+								Neurocomputing 2025 <a href="https://arxiv.org/abs/2504.04613">[pdf]</a> <a href="https://github.com/kmalialis/siameseduo">[code]</a>,
 								IEEE WCCI - IJCNN 2020 <a href="https://arxiv.org/abs/2010.01659">[pdf]</a>,
 								IEEE SSCI 2022 <a href="https://arxiv.org/abs/2210.06873">[pdf]</a> <a href="https://github.com/kmalialis/augmented_queues/">[code]</a>
 								</p>
@@ -120,18 +141,21 @@
 								<span class="image featured"><img src="images/pic03.jpg" alt="" /></span>
 								<h3>Unsupervised learning (anomaly detection) from data streams</h3>
 
-								<p><img src="my_images/proj_anomdet.png" alt="" width="350" height="380"/></p>
+								<p><img src="my_images/proj_anomdet.png" alt="" width="260" height="280"/></p>
 
-								<p>The generation of vast amounts of streaming data in various domains has become ubiquitous. However, many of these data are unlabeled, making it challenging to identify infrequent events, particularly anomalies. This task becomes even more formidable in nonstationary environments where model performance can deteriorate over time due to concept drift. To address these challenges, we propose autoencoder-based incremental learning and concept drift detection mechanisms.</p>
+								<p>Streaming data are now ubiquitous, yet often unlabeled, making infrequent event detection (e.g., anomalies) difficult. The problem is further compounded in nonstationary settings where concept drift degrades performance over time. To address these challenges, we propose autoencoder-based incremental learning and concept drift detection mechanisms.</p>
 
 								<p><strong>Representative publications</strong>:
 								IEEE WCCI - IJCNN 2024 <a href="https://arxiv.org/abs/2403.03576">[pdf]</a>,
 								IEEE IJCNN 2023 <a href="https://arxiv.org/abs/2305.08977">[pdf]</a>,
 								IEEE SSCI 2023 <a href="https://arxiv.org/abs/2211.12989">[pdf]</a>
-
 								</p>
 							</section>
 						</div>
+
+
+
+
 
 
 						<div class="col-6 col-12-narrower">
@@ -141,22 +165,43 @@
 
 								<p><img src="my_images/proj_wds.png" alt="" width="400" height="300"/></p>
 
-								<p>We look into different problems, such as:
-								<ul>	
-									<li>Domestic water consumption monitoring</li>
-									<li>Detection and localisation of water contamination</li>
-									<li>Urban water consumption forecasting</li>
-								</ul>
-								</p>
+								<p>Check out our <strong>position paper</strong>! We have introduced a novel modelling framework for Smart Water Networks with an environmental and social focus. Furthermore, we have demonstrated its effectiveness in a real-world application. (IEEE TICPS 2024 <a href="https://ieeexplore.ieee.org/document/10817792">[pdf]</a>)</p>
+
+								<p>We also look into different problems as follows.</p>
+
+								<p><strong>Water contamination detection and localisation</strong>: IEEE CIETES 2025 <a href="https://arxiv.org/abs/2501.02107">[pdf]</a>, SysTol 2025 <a href="https://arxiv.org/pdf/2508.16336">[pdf]</a></p>
+
+								<p><strong>Domestic water consumption monitoring</strong>: JHI 2024 <a href="https://iwaponline.com/jh/article/doi/10.2166/hydro.2024.120/101077">[pdf]</a></p>
+
+								<p><strong>Urban water consumption forecasting</strong>: IEEE CIETES 2025 <a href="https://arxiv.org/abs/2501.00158">[pdf]</a></p>
+
+							</section>
+						</div>
+
+
+
+
+
+						<div class="col-6 col-12-narrower">
+							<section class="box special">
+								<span class="image featured"><img src="images/pic03.jpg" alt="" /></span>
+								<h3>Machine learning for infectious disease modelling and forecasting</h3>
+
+								<p><img src="my_images/proj_health.png" alt="" width="350" height="250"/></p>
+
+								<p>Modelling and forecasting the spread of infectious diseases is essential for assessing transmissibility, planning healthcare resources, and designing suitable and timely intervention strategies. Reliable short-term forecasts of infection growth can help governments and healthcare systems anticipate upcoming resurgences, prepare targeted responses, and minimise both health and economic impacts. Therefore, advancing accurate forecasting methods is critical for strengthening preparedness and response capacity in the face of current and future incidences.</p>
 
 								<p><strong>Representative publications</strong>:
-								IEEE TICPS 2024 <a href="https://ieeexplore.ieee.org/document/10817792">[pdf]</a>,
-								JHI 2024 <a href="https://iwaponline.com/jh/article/doi/10.2166/hydro.2024.120/101077">[pdf]</a>,
-								IEEE SSCI 2025 <a href="https://arxiv.org/abs/2501.00158">[pdf]</a>,
-								IEEE SSCI 2025 <a href="https://arxiv.org/abs/2501.02107">[pdf]</a>
+								IEEE EMBC 2024 <a href="https://ieeexplore.ieee.org/abstract/document/10781894">[pdf]</a></li>,
+								IEEE CIBCB 2025 <a href="https://arxiv.org/abs/2507.12966">[pdf]</a></li>,
+								ICANN 2023 <a href="https://arxiv.org/abs/2309.09698">[pdf]</a>
 								</p>
 							</section>
 						</div>
+
+
+
+
 
 
 						<div class="col-6 col-12-narrower">
